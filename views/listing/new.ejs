@@ -1,0 +1,83 @@
+<%layout("/layouts/boilerplate") %>
+
+
+    
+    <div class="row">
+        <div class="col-8 offset-2">
+        
+        
+            <h3>Create a New Listing</h3>
+            <form method="post" action="/listings"  class=" needs-validation" novalidate enctype="multipart/form-data">
+            
+                <div>
+                    <label for="tittle" class="form-label"> Tittle</label>
+                    <input name="tittle" placeholder="enter tittle" class="form-control" required><br>
+                    <div class="valid-feedback"> great !</div>
+                    <div class="invalid-feedback">Fill the info !</div>
+                </div>
+          
+                
+                
+                <div>
+                    <label for="description" class="form-label">Description</label>
+                    <textarea name="description" placeholder="enter description"  class="form-control"  required></textarea><br>
+                    <div class="valid-feedback"> looks good !</div>
+                    <div class="invalid-feedback">Fill the info !</div>
+                </div>
+            <!--image link-->
+             <!--  <div>
+                    <label for="image" class="form-label">Image</label>
+                    <input name="image" placeholder="enter image url" class="form-control" ><br>
+            
+                </div>
+                --> 
+
+<!--Upload image-->
+                <div>
+                    <label for="image" class="form-label">Upload image</label>
+                    <input type="file" name="image"  class="form-control" ><br>
+            
+                </div>
+            
+                <div class="row">
+        
+                    <div class="mb-3 col-md-4">
+                        <label for="price" class="form-label">Price</label>
+                        <input name="price" placeholder="enter price" type="number" class="form-control" required><br>
+                        <div class="valid-feedback"> looks good !</div>
+                        <div class="invalid-feedback">Fill the info !</div>
+                    </div>
+                    
+                <div class="mb-3 col-md-8">
+                    <label for="country" class="form-label">Country</label>
+                    <input name="country" placeholder="enter country" class="form-control" required><br>
+                    <div class="valid-feedback"> looks good !</div>
+                    <div class="invalid-feedback">Fill the info !</div>
+                </div>
+                </div>
+               
+            
+                <div>
+                    <label for="location" class="form-label">Location</label>
+                    <input id="locationInput" name="location" placeholder="enter location" class="form-control" required><br>
+                    <div class="valid-feedback"> looks good !</div>
+                    <div class="invalid-feedback">Fill the info !</div>
+                </div>
+            
+            
+            
+            
+            
+            <button class="btn btn-dark">Submit</button>
+            </form>
+            
+            
+            
+        
+        </div>
+        
+        </div>
+        
+           
+
+

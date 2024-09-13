@@ -1,0 +1,433 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
+}
+.container{
+    flex:1;
+}
+
+.navbar{
+    height:5rem;
+    background-color: rgb(46, 43, 43);
+}
+.fa-compass{
+    color:#fe424d;
+    font-size:2rem;
+}
+.nav-link{
+    color:#222222 !important;}/* yadi hum chahta h hamari styling bootstrap ki styling ko hata da to hum {!important} ka use krta h*/
+
+/*footer*/
+
+    .links a{
+text-decoration: none;
+color:#222222;
+    }
+    .links a:hover{
+        text-decoration: underline;;
+    }
+    .f-info{
+        
+        height:8rem;
+        background-color: #ebebeb;
+        display: flex;
+        flex-direction: column;
+       
+        align-items: center;
+        justify-content: space-evenly;
+    
+        
+    }
+    .social i{
+        font-size:1.2rem;
+        margin-right: 1rem;
+        
+    }
+
+
+
+    /* index.ejs*/
+
+    .card{
+        border:none !important;
+        margin-bottom: 2rem;
+
+    }
+    .card-img-top{
+        border-radius: 1rem !important;
+        width:100% !important;
+        object-fit:cover !important;
+    }
+    .card-body{
+        padding:0 !important;
+    }
+    .card-text p{
+        font-weight:400 !important;
+    
+    }
+    .link{
+        text-decoration: none;;
+    }
+
+
+    /* show*/
+    .show{
+        text-align: center;
+    }
+    .show-ul{
+        width:50rem;
+        text-align: center;
+    
+    }
+    .sh{
+        width: 50rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .sh button a{
+        text-decoration: none;
+        color: white;
+    }
+    .re{
+        border: 1px solid black !important;
+    
+    }
+
+
+
+
+
+
+
+
+/*  login page   */
+
+
+    *{
+        margin:0;
+        padding:0;
+        
+        font-family:"Roboto", sans-serif !important;
+    }
+    
+    .contain{
+    height:100vh;
+    width:100%;
+        display:flex;
+        flex-direction: column;
+       justify-content: space-evenly;
+       align-items: center;
+       background-image: url("https://images.unsplash.com/photo-1605962608033-5795d98818a9?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bmlnaHQlMjB0cmF2ZWx8ZW58MHx8MHx8fDA%3D");
+       background-repeat:no-repeat;
+     background-size:cover;
+       background-position:center;
+    }
+    .error{
+        width:950px;
+    }
+    
+    .login{
+    
+    height:87vh;
+    width:450px;
+    background-color:rgba(0,0,0,0.5);
+    border-radius: 2rem;
+    filter: drop-shadow(0 0 0.75rem black);
+    }
+    .image img{
+        height:0px;
+        width:0px;
+    }
+    
+    h2{
+        position: relative;
+        top:6.5vh;
+        left:55px;
+        font-size:35px !important ;
+        font-weight:bolder !important;
+        width:50%;
+        color:white !important;
+        
+    }
+        
+    #exampleInputEmail1{
+    position: relative;
+    left:55px;
+    
+    top:9vh;
+    height:55px !important;
+    width:330px;
+    background-color:rgba(46, 45, 45, 0.4);
+    color: white;
+    }
+    #exampleInputEmail1::placeholder{
+        color:rgba(255, 255, 255, 0.544);
+    }
+    
+    #exampleInputEmail2{
+        position: relative;
+    left:55px;
+    top:13vh;
+        height:55px !important;
+        width:330px;
+        background-color:rgba(46, 45, 45, 0.4);
+        color:rgb(255, 255, 255);
+    
+    }
+    #exampleInputEmail2::placeholder{
+        color:rgba(255, 255, 255, 0.538);
+       
+    }
+    #exampleInputEmail3{
+        position: relative;
+    left:55px;
+    top:11vh;
+        height:55px !important;
+        width:330px;
+        background-color:rgba(46, 45, 45, 0.4);
+        color:rgb(255, 255, 255);
+    
+    }
+    #exampleInputEmail3::placeholder{
+        color:rgba(255, 255, 255, 0.538);
+       
+    }
+    #exampleInputEmail4{
+        position: relative;
+        left:55px;
+        
+        top:9vh;
+        height:55px !important;
+        width:330px;
+        background-color:rgba(46, 45, 45, 0.4);
+        color: white;
+        }
+        #exampleInputEmail1::placeholder{
+            color:rgba(255, 255, 255, 0.544);
+        }
+
+        #exampleInputEmail5{
+            position: relative;
+        left:55px;
+        top:12vh;
+            height:55px !important;
+            width:330px;
+            background-color:rgba(46, 45, 45, 0.4);
+            color:rgb(255, 255, 255);
+        
+        }
+        #exampleInputEmail3::placeholder{
+            color:rgba(255, 255, 255, 0.538);
+           
+        }
+
+    .btn-danger{
+    
+        position: relative;
+        left:55px;
+        width:330px;
+        top:16vh;
+        height:43px;
+        background-color: red !important;
+    
+    }
+    .or{
+        position: relative;
+        left:47%;
+        top:19vh;
+        font-weight:500;
+        font-size: 17px;
+        width:50%;
+        color:rgb(158, 158, 158);
+    }
+    
+ 
+    .forget{
+        position: relative;
+        left:35%;
+        top:17vh;
+        font-weight:500;
+        font-size: 17px;
+        width:50%;
+        color:white;
+    }
+    
+    .form-check{
+        position: relative;
+        left:55px;
+    top:19vh;
+    color:white;
+    }
+    
+    .sign{
+        position: relative;
+        left:55px;
+    top:21vh;
+    width:50%;
+    color:rgb(158, 158, 158);
+    }
+    .si{
+        color:white;
+        text-decoration: none;
+    }
+    .sml{
+        position: relative;
+        left:55px;
+    top:23vh;
+    width:70%;
+    font-size:15px;
+    color:rgb(158, 158, 158);
+    }
+    .learn{
+    color:blue;
+    text-decoration: none;
+    }
+    
+    
+    
+    
+    
+    
+    @media screen and (max-width:450px) and (min-width:0px){
+    
+        *{
+            margin:0;
+            padding:0;
+        }
+        .contain{
+            height:100vh;
+            width:100vw;
+            margin: 0;
+    
+        }
+        .login{
+    
+            height:100vh;
+            width:100vw;
+            background-color:rgba(0,0,0);
+            
+            }
+        .image img{
+    
+            height:20px;
+            width:90px;
+        }
+        .image{
+            position: absolute;
+           left:5%;
+           top:2vh;
+           
+            
+        }
+        h2{
+            position: absolute;
+            left:5%;
+            top:9vh;
+           font-size:30px !important ;
+            font-weight:bolder !important;
+             color:white !important;
+            
+        }
+        #exampleInputEmail1{
+            position: absolute;
+            left:5%;
+            top:16vh;
+            width:90% !important;
+            height:50px !important;
+           
+            background-color:rgba(46, 45, 45, 0.4);
+            }
+            #exampleInputEmail1::placeholder{
+                color:white;
+            }
+    
+            #exampleInputEmail2{
+                position: absolute;
+                left:5%;
+                top:25vh;
+                width:90% !important;
+                height:50px !important;
+                background-color:rgba(46, 45, 45, 0.4);
+            
+            }
+            #exampleInputEmail2::placeholder{
+                color:white;
+               
+            }
+    
+            .btn-danger{
+                position: absolute;
+                left:5%;
+                top:34vh;
+                width:90% !important;
+                height:35px !important;
+                background-color: red !important;
+            
+            }
+            .or{
+                position: absolute;
+                left:49%;
+                top:42vh;
+                font-weight:500;
+                font-size: 17px;
+                width:50%;
+                color:rgb(158, 158, 158);
+            }
+            
+            .btn-secondary{
+                
+                position: absolute;
+                left:5%;
+                top:47vh;
+                width:90% !important;
+                height:35px !important;
+                background-color: rgba(255,255,255,0.2) !important;
+                border: rgba(255,255,255,0.2) !important;
+            
+            }
+            .forget{
+                position: absolute;
+                left:34%;
+                top:55vh;
+                font-weight:500;
+                font-size: 17px;
+                width:50%;
+                color:white;
+            }
+            
+            .form-check{
+                position: absolute;
+                left:5%;
+            top:62vh;
+            color:white;
+            }
+            
+            .sign{
+                position: absolute;
+                left:5%;
+            top:69vh;
+            width:90%;
+            color:rgb(158, 158, 158);
+            }
+            .si{
+                color:white;
+                text-decoration: none;
+            }
+            .sml{
+                position: absolute;
+                left:5%;
+            top:77vh;
+            width:90%;
+            font-size:15px;
+            color:rgb(158, 158, 158);
+            }
+            .learn{
+            color:blue;
+            text-decoration: none;
+            }
+            
+    
+    }
+    
