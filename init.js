@@ -6,7 +6,7 @@ main().then(()=>{
 .catch(err => console.log(err));
 
 async function main() {
-  await mongoose.connect('mongodb://127.0.0.1:27017/wanderlust');
+  await mongoose.connect('mongodb+srv://user77:Atlas77@cluster000.zko48.mongodb.net/?retryWrites=true&w=majority&appName=Cluster000');
 
   // use `await mongoose.connect('mongodb://user:password@127.0.0.1:27017/test');` if your database has auth enabled
 }
@@ -26,7 +26,7 @@ Listing.insertMany( [
         price: 1500,
       location: "Malibu",
       country: "United States",
-      owner:"66d23da0af4e0873679504f8"
+      owner:"66e37359f607623818da5792"
     
     },
     {
@@ -40,7 +40,7 @@ Listing.insertMany( [
        price: 1200,
       location: "New York City",
       country: "United States",
-      owner:"66d23da0af4e0873679504f8"
+      owner:"66e37359f607623818da5792"
     },
     {
       tittle: "Mountain Retreat",
@@ -67,7 +67,7 @@ Listing.insertMany( [
       price: 2500,
       location: "Florence",
       country: "Italy",
-      owner:"66d23da0af4e0873679504f8"
+      owner:"66e37359f607623818da5792"
     },
     {
       tittle: "Secluded Treehouse Getaway",
@@ -80,7 +80,7 @@ Listing.insertMany( [
       price: 800,
       location: "Portland",
       country: "United States",
-      owner:"66d23da0af4e0873679504f8"
+      owner:"66e37359f607623818da5792"
     },
     {
       tittle: "Beachfront Paradise",
@@ -93,7 +93,7 @@ Listing.insertMany( [
       price: 2000,
       location: "Cancun",
       country: "Mexico",
-      owner:"66d23da0af4e0873679504f8"
+      owner:"66e37359f607623818da5792"
     },
     {
       tittle: "Rustic Cabin by the Lake",
@@ -106,7 +106,7 @@ Listing.insertMany( [
       price: 900,
       location: "Lake Tahoe",
       country: "United States",
-      owner:"66d23da0af4e0873679504f8"
+      owner:"66e37359f607623818da5792"
     },
     {
       tittle: "Luxury Penthouse with City Views",
@@ -120,7 +120,7 @@ Listing.insertMany( [
       price: 3500,
       location: "Los Angeles",
       country: "United States",
-      owner:"66d23da0af4e0873679504f8"
+      owner:"66e37359f607623818da5792"
     },
     {
       tittle: "Ski-In/Ski-Out Chalet",
@@ -133,7 +133,7 @@ Listing.insertMany( [
       price: 3000,
       location: "Verbier",
       country: "Switzerland",
-      owner:"66d23da0af4e0873679504f8"
+      owner:"66e37359f607623818da5792"
     },
     {
       tittle: "Safari Lodge in the Serengeti",
@@ -146,7 +146,7 @@ Listing.insertMany( [
       price: 4000,
       location: "Serengeti National Park",
       country: "Tanzania",
-      owner:"66d23da0af4e0873679504f8"
+      owner:"66e37359f607623818da5792"
     },
     {
       tittle: "Historic Canal House",
@@ -158,7 +158,7 @@ Listing.insertMany( [
       price: 1800,
       location: "Amsterdam",
       country: "Netherlands",
-      owner:"66d23da0af4e0873679504f8"
+      owner:"66e37359f607623818da5792"
     },
     {
       tittle: "Private Island Retreat",
@@ -170,7 +170,7 @@ Listing.insertMany( [
       price: 10000,
       location: "Fiji",
       country: "Fiji",
-      owner:"66d23da0af4e0873679504f8"
+      owner:"66e37359f607623818da5792"
     },
     {
       tittle: "Charming Cottage in the Cotswolds",
@@ -182,7 +182,7 @@ Listing.insertMany( [
       price: 1200,
       location: "Cotswolds",
       country: "United Kingdom",
-      owner:"66d23da0af4e0873679504f8"
+      owner:"66e37359f607623818da5792"
     },
     {
       tittle: "Historic Brownstone in Boston",
@@ -194,7 +194,7 @@ Listing.insertMany( [
       price: 2200,
       location: "Boston",
       country: "United States",
-      owner:"66d23da0af4e0873679504f8"
+      owner:"66e37359f607623818da5792"
     },
     {
       tittle: "Beachfront Bungalow in Bali",
@@ -206,7 +206,7 @@ Listing.insertMany( [
       price: 1800,
       location: "Bali",
       country: "Indonesia",
-      owner:"66d23da0af4e0873679504f8"
+      owner:"66e37359f607623818da5792"
     },
     {
       tittle: "Mountain View Cabin in Banff",
@@ -218,7 +218,7 @@ Listing.insertMany( [
       price: 1500,
       location: "Banff",
       country: "Canada",
-      owner:"66d23da0af4e0873679504f8"
+      owner:"66e37359f607623818da5792"
     },
     {
       tittle: "Art Deco Apartment in Miami",
@@ -230,7 +230,7 @@ Listing.insertMany( [
       price: 1600,
       location: "Miami",
       country: "United States",
-      owner:"66d23da0af4e0873679504f8"
+      owner:"66e37359f607623818da5792"
     },
     {
       tittle: "Tropical Villa in Phuket",
@@ -242,7 +242,7 @@ Listing.insertMany( [
       price: 3000,
       location: "Phuket",
       country: "Thailand",
-      owner:"66d23da0af4e0873679504f8"
+      owner:"66e37359f607623818da5792"
     },
     {
       tittle: "Historic Castle in Scotland",
@@ -254,7 +254,7 @@ Listing.insertMany( [
       price: 4000,
       location: "Scottish Highlands",
       country: "United Kingdom",
-      owner:"66d23da0af4e0873679504f8"
+      owner:"66e37359f607623818da5792"
     },
     {
       tittle: "Desert Oasis in Dubai",
@@ -266,7 +266,7 @@ Listing.insertMany( [
       price: 5000,
       location: "Dubai",
       country: "United Arab Emirates",
-      owner:"66d23da0af4e0873679504f8"
+      owner:"66e37359f607623818da5792"
     },
     {
       tittle: "Rustic Log Cabin in Montana",
@@ -278,7 +278,7 @@ Listing.insertMany( [
       price: 1100,
       location: "Montana",
       country: "United States",
-      owner:"66d23da0af4e0873679504f8"
+      owner:"66e37359f607623818da5792"
     },
     {
       tittle: "Beachfront Villa in Greece",
@@ -290,7 +290,7 @@ Listing.insertMany( [
       price: 2500,
       location: "Mykonos",
       country: "Greece",
-      owner:"66d23da0af4e0873679504f8"
+      owner:"66e37359f607623818da5792"
     },
     {
       tittle: "Eco-Friendly Treehouse Retreat",
@@ -302,7 +302,7 @@ Listing.insertMany( [
       price: 750,
       location: "Costa Rica",
       country: "Costa Rica",
-      owner:"66d23da0af4e0873679504f8"
+      owner:"66e37359f607623818da5792"
     },
     {
       tittle: "Historic Cottage in Charleston",
@@ -314,7 +314,7 @@ Listing.insertMany( [
       price: 1600,
       location: "Charleston",
       country: "United States",
-      owner:"66d23da0af4e0873679504f8"
+      owner:"66e37359f607623818da5792"
     },
     {
       tittle: "Modern Apartment in Tokyo",
@@ -326,7 +326,7 @@ Listing.insertMany( [
       price: 2000,
       location: "Tokyo",
       country: "Japan",
-      owner:"66d23da0af4e0873679504f8"
+      owner:"66e37359f607623818da5792"
     },
     {
       tittle: "Lakefront Cabin in New Hampshire",
@@ -338,7 +338,7 @@ Listing.insertMany( [
       price: 1200,
       location: "New Hampshire",
       country: "United States",
-      owner:"66d23da0af4e0873679504f8"
+      owner:"66e37359f607623818da5792"
     },
     {
       tittle: "Luxury Villa in the Maldives",
@@ -350,7 +350,7 @@ Listing.insertMany( [
       price: 6000,
       location: "Maldives",
       country: "Maldives",
-      owner:"66d23da0af4e0873679504f8"
+      owner:"66e37359f607623818da5792"
     },
     {
       tittle: "Ski Chalet in Aspen",
@@ -362,7 +362,7 @@ Listing.insertMany( [
       price: 4000,
       location: "Aspen",
       country: "United States",
-      owner:"66d23da0af4e0873679504f8"
+      owner:"66e37359f607623818da5792"
     },
     {
       tittle: "Secluded Beach House in Costa Rica",
@@ -374,7 +374,7 @@ Listing.insertMany( [
       price: 1800,
       location: "Costa Rica",
       country: "Costa Rica",
-      owner:"66d23da0af4e0873679504f8"
+      owner:"66e37359f607623818da5792"
     }
   ]
 ).then((res)=>{
