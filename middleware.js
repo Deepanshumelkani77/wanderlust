@@ -3,10 +3,10 @@ const Review=require("./models/review");
 
 module.exports.islogin=(req,res,next)=>{
 
-  console.log(req.path,"..",req.originalUrl);
+  //console.log(req.path,"..",req.originalUrl);
     if(!req.isAuthenticated())
         {
-          console.log("original url: ", req.originalUrl)
+       //   console.log("original url: ", req.originalUrl)
           //redirect url save
        req.session.redirecturl=req.originalUrl;  //this is for post-login 
 
@@ -18,6 +18,8 @@ module.exports.islogin=(req,res,next)=>{
 
 
 module.exports.saveredirecturl=(req,res,next)=>{
+
+console.log(req.session.redirecturl);
   if(req.session.redirecturl)
   {
     res.locals.redirecturl=req.session.redirecturl

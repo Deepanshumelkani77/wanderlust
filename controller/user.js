@@ -43,19 +43,14 @@ module.exports.loginget=(req,res)=>{
     res.render("user/login.ejs");
 }
 
+module.exports.loginpost=(req,res)=>{
 
-module.exports.loginpost=async(req,res)=>{
+    if(res.locals.redirecturl)
+    {
+    res.redirect(res.locals.redirecturl);}
 
-    req.flash("success","Welcom back to Wanderlust")
- 
-    res.redirect(res.locals.redirecturl);
-   //
-    console.log(res.locals.redirecturl)
-   //res.redirect("/listings") na hokar isma ho
-  
-  //res.redirect("/listings");
-  
-  }
+    else{res.redirect("/listings");}
+}
 
 
 

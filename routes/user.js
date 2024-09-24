@@ -4,6 +4,7 @@ const User=require("../models/user.js");
 const passport=require("passport");
 const { saveredirecturl } = require("../middleware.js");
 const usercontroller=require("../controller/user.js");
+//const{islogin,isowner}=require("../middleware.js")
 
 //signup
 
